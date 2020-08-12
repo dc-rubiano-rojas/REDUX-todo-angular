@@ -1,0 +1,6 @@
+<ul class="todo-list">
+
+    <!--Pasa por el filtroActual para saber cual es el estado actual y luego lo filtra-->
+    <app-todo-item *ngFor="let todo of todos | filtroTodo: filtroActual" [todo]="todo"></app-todo-item>
+
+</ul>

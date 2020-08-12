@@ -1,0 +1,5 @@
+<header class="header">
+    <h1>todos</h1>
+    <input class="new-todo" placeholder="What needs to be done?" [formControl]="txtInput" (keyup.enter)="agregar()" autofocus>
+</header>
+<!-- Se pone en [] porque lo estoy asignando a una propiedad de mi clase -->
